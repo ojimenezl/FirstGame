@@ -248,11 +248,11 @@
         // });
         socket.on('messages', msg => {
             text_box.innerHTML = `<b>Quemados:</b> ${msg.conteo}<b>Topados:</b> ${msg.topadas}<b>Total Jugadores:</b> ${msg.jugadores}`;
-            if (msg.conteo >= 2) {
+            if (msg.conteo >= 4) {
                 alert("win ANFITRIÓN")
                 location.href = "/index"
             }
-            if (msg.topadas >= 2) {
+            if (msg.topadas >= 4) {
                 alert("win JUGADORES")
                 location.href = "/index"
             }
