@@ -62,11 +62,11 @@
                         socket.emit('ConteoQuemados', { conteo: this.totalQuemados, conteo_topadas: this.totalTopadas, jugadores: this.totalJugadores, room: room });
                         this.paso = this.totalQuemados
                     }
-//                     if ((this.paso_topados != this.totalTopadas) && this.paso_topados != undefined) {
+                    if ((this.paso_topados != this.totalTopadas) && this.paso_topados != undefined) {
 
-//                         socket.emit('ConteoQuemados', { conteo: this.totalQuemados, conteo_topadas: this.totalTopadas, jugadores: this.totalJugadores, room: room });
-//                         this.paso_topados = this.totalTopadas
-//                     }
+                        socket.emit('ConteoQuemados', { conteo: this.totalQuemados, conteo_topadas: this.totalTopadas, jugadores: this.totalJugadores, room: room });
+                        this.paso_topados = this.totalTopadas
+                    }
 
                 }
 
