@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dilly Dallying</title>
+</head>
+
+<body>
+
+    <div class="join-container">
+        <!-- <header class="join-header"> -->
+
+
+        <!-- </header> -->
+        <main class="join-main">
+            <!--  -->
+            <form action="Inicio.html">
+                <!--  -->
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter username..." required />
+                </div>
+                <!-- <div class="form-control">
+                    <input type="text" placeholder="Enter Game Code" id="gameCodeInput" />
+                </div> -->
+                <div class="form-control">
+                    <label for="room">Room</label>
+                    <div class="form-control">
+                        <input type="text" placeholder="Enter Game Code" id="room" name="room" required />
+                    </div>
+                    <!-- <select name="room" id="room">
+							<option value="JavaScript">JavaScript</option>
+							<option value="Python">Python</option>
+							<option value="PHP">PHP</option>
+							<option value="C#">C#</option>
+							<option value="Ruby">Ruby</option>
+							<option value="Java">Java</option>
+						</select> -->
+                </div>
+                <!-- <button type="submit" class="btn">Join Chat</button> -->
+                <button type="submit" class="btn btn-success" id="joinGameButton"><i class="fas fa-running"></i>
+                  
+                </button>
+            </form>
+
+            <h1>
+                <a id="creditos" href="#openModal" style="text-decoration:none" class="fas fa-laptop-code"></a>
+                <a id="creditos" href="#openModalInstruccion" style="text-decoration:none" class="fas fa-gamepad"></a>
+
+
+            </h1>
+
+            <!-- Modal Creditos -->
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <center>
+                        <u><h2>Autores</h2></u>
+                        <br>
+                        <h4>Desarrollador</h4>
+                        <p>Oscar Jiménez</p>
+                        <h4>Diseñadora</h4>
+                        <p>Melanie Campoverde</p>
+                        <u><h2>Créditos</h2></u>
+                        <br>
+                        <h4>Plantilla de animación con socket io</h4>
+                        <p>Jonathan Fox</p>
+                        <u><h2>Recursos</h2></u>
+                        <br>
+                        <h4>Herramientas Utilizadas</h4>
+                        <p>Node JS - Socket io - HTML - CSS</p>
+                    </center>
+                </div>
+            </div>
+
+            <!-- Modal Intrucciones -->
+            <div id="openModalInstruccion" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <center>
+                        <u><h2>Reglas</h2></u>
+                    </center>
+                    <br>
+                    <h5>Gana el Anfitrión</h5>
+                    <p>- Si congela a todos los jugadores.</p>
+                    <h5>Ganan los Jugadores</h5>
+                    <p>- Si todos topan al Anfitrión.</p>
+
+
+                </div>
+            </div>
+
+            <!-- Modal  -->
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <center>
+                        <u><h2>Autores</h2></u>
+                        <br>
+                        <h5>Desarrollador</h5>
+                        <p>Oscar Jiménez</p>
+                        <h5>Diseñadora</h5>
+                        <p>Melanie Campoverde</p>
+                        <u><h2>Creditos</h2></u>
+                        <br>
+                        <h5>Plantilla de animación con socket io</h5>
+                        <p>Jonathan Fox</p>
+                        <u><h2>Recursos</h2></u>
+                        <br>
+                        <h5>Herramientas utilizadas</h5>
+                        <p>Node JS - Socket io - HTML - CSS</p>
+                    </center>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+
+</html>
